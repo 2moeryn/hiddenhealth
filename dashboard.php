@@ -1,4 +1,8 @@
 <style>
+    h1 {
+        text-align: center;
+        margin-top: 10px;
+    }
     body {
         font-family: sanssystem-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
         margin: 0;
@@ -17,14 +21,16 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Dashboard</title>
+        <title>List Doktor</title>
     </head>
     <body>
     <?php include("layout/header.html") ?>
-    <h1>Dashboard</h1>
+    <h1>List Doktor</h1>
     <main>
-        <p> Selamat datang di dashboard</p>
-        <p> <a href="index.php">Logout</a></p>
+        <p> Selamat datang di Hidden Health</p>
+        <p> Berikut adalah list dokter yang tersedia:</p>
+        <p> Dr. A <a href="doctor.php">Doktor Umum</a></p>
+        <p><a href="index.php">Logout</a></p>
     </main>
     <?php include("layout/footer.html") ?>
     </body>
